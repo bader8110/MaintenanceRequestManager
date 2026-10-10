@@ -70,7 +70,7 @@ dotnet run --project .\MaintenanceRequestManager\MaintenanceRequestManager.cspro
 | Administrator | `admin` | `admin123` |
 | Regular user | `user` | `user123` |
 
-These are sample accounts for demonstration. The application is an educational local desktop project and is not intended for production authentication or sensitive information.
+These fixed credentials are included only so the coursework demo can be tested immediately. They are visible in the source code and are not secret. Do not reuse them for any other account or service.
 
 ## Data and preferences
 
@@ -93,6 +93,6 @@ The publish output is written under `MaintenanceRequestManager\bin\Release\net8.
 
 ## Project notes
 
-The application uses local JSON persistence and sample credentials for coursework demonstration. A production version would require stronger authentication, protected credential storage, access controls, and a shared database.
+This is an educational local desktop project, not a production system. User passwords are currently stored as plain text in the local JSON data file, and the sample credentials are fixed in the source. Do not enter real passwords, personal data, or sensitive information. A production version would require password hashing, stronger authentication, access controls, and a shared database.
 
 See [`MaintenanceRequestManager/CHANGELOG.md`](MaintenanceRequestManager/CHANGELOG.md) for the project update history.
