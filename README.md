@@ -23,6 +23,8 @@ The application was developed as a Software Engineering course project using C# 
 - **Target framework:** .NET 8 for Windows
 - **Storage:** Local JSON files; no external database or NuGet package is required.
 
+See [ARCHITECTURE.md](ARCHITECTURE.md) for the application architecture and request workflow diagrams.
+
 ```text
 MaintenanceRequestManager.sln
 ├── MaintenanceRequestManager/
