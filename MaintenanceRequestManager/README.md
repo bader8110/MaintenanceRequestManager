@@ -31,6 +31,8 @@ To make a Windows release build, double-click `BUILD_RELEASE.bat`.
 - Administrator: `admin` / `admin123`
 - Regular user: `user` / `user123`
 
+These fixed credentials are for coursework demonstrations only. They are visible in the source code and must not be reused for any real account or service.
+
 ## Data file
 
 The application creates its data file automatically at:
@@ -38,6 +40,8 @@ The application creates its data file automatically at:
 `%LOCALAPPDATA%\MaintenanceRequestManager\data.json`
 
 Delete that file only when you want to reset the sample data.
+
+This is a local educational project, not a production authentication system. Passwords are currently stored as plain text in the local JSON data file. Do not enter real passwords or sensitive information.
 
 ## Main features
 
